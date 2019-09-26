@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Product Sorter</title>
+    <link rel="stylesheet" href="app/css2/stylescli.css">
+    <link rel="stylesheet" href="app/css2/style.css">
+
+
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+    <div class="buttons">
+        <button class="active" data-sort="sort-all" onclick="volveradmin()">Atras</button>
+        <button data-sort="sort-hoodies"  onclick="volverprincipal()" >Salir</button>
+
+        <!-- partial:index.partial.html -->
+
+    </div>
+
+    <div class="boxes">
+        <div class="box sort-Comida 1">
+            <img src="img/portfolio/bagre.jpg" alt="">
+            <div class="details">
+                <div class="tittle">Bagre en salsa con patacones</div>
+                <div class="price">Precio: 18000</div>
+            </div>
+        </div>
+
+        <div class="box sort-Comida 2">
+            <img src="img/portfolio/ajiaco.jpg" alt="">
+            <div class="details">
+                <div class="tittle">Ajiaco plato</div>
+                <div class="price">Precio: 15000</div>
+            </div>
+        </div>
+
+        <div class="box sort-Comida 3">
+            <img src="img/portfolio/arrozP.jpg" alt="">
+            <div class="details">
+                <div class="tittle">Bagre en salsa con patacones</div>
+                <div class="price">Precio: 15000</div>
+            </div>
+        </div>
+
+        <div class="box sort-Comida 4">
+            <img src="img/portfolio/bandeja.jpg" alt="">
+            <div class="details">
+                <div class="tittle">Bandeja Paisa</div>
+                <div class="price">Precio: 18000</div>
+            </div>
+        </div>
+
+        <div class="box sort-Comida 5">
+            <img src="img/portfolio/caldo.jpg" alt="">
+            <div class="details">
+                <div class="tittle">Caldo con pollo</div>
+                <div class="price">Precio: 15800</div>
+            </div>
+        </div>
+
+
+
+
+        <div class="box sort-Comida 6">
+            <img src="img/portfolio/tamal.jpg" alt="">
+            <div class="details">
+                <div class="tittle">Tamal</div>
+                <div class="price">Precio: 14000</div>
+            </div>
+        </div>
+
+
+
+        <div class="col">
+            <!--Aqui empieza lo del boton y en el css es donde sale las posiciones -->
+            <div class="cont_login">
+                <div class="cont_info_log_sign_up">
+                    <div class="col_md_login">
+                        <h2>Agregas nuevos platos</h2>
+                        <button class="btn_login" onclick="cambiar_login()">Agregar</button>
+                    </div>
+                </div>
+
+                <div class="cont_forms">
+                    <div class="cont_form_login">
+                        <a href="#" onclick="ocultar_login_sign_up()"><i class="material-icons">&#xE5C4;</i></a>
+                        <h2>PLATO</h2>
+                        <input type="text" placeholder="Nombre plato" />
+                        <input type="password" placeholder="precio plato" />
+                        <input type="text" placeholder="descripcion" />
+                        <input type="text" placeholder="imagen" />
+                        <button class="btn_login" onclick="cambiar_login()">Aceptar</button>
+                    </div>
+
+                    <div class="cont_form_sign_up">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Aqui termina-->
+
+
+
+    </div>
+
+   
+    <!-- partial -->
+    <script src="app/js2/script.js"></script>
+</body>
+
+</html>
